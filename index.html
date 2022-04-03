@@ -1,94 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Vadim, cv,resume">
-    <meta name="discription" content="Это сайт Резюме-Вадима Супрона">
-    <title>Vadim Resume</title>
-    <link rel="stylesheet" 
-    href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="Vadim, cv,resume">
+  <meta name="discription" content="Это сайт Резюме-Вадима Супрона">
+  <title>Vadim Resume</title>
+  <link rel="stylesheet" 
+  href="style.css">
 </head>
 <body>
-
-            <div class="container">
-
+  <div class="container">          
     <div class="info">
-<img src="foto.jpg" alt="Супрон Вадим" width="250">
-    </div>
-<div class="info-text">
-    <h1>Супрон Вадим</h1>
-    <p>Я создатель этого <strong>сайта</strong>,бывший стример канала <strong>"Mtv_Umora"</strong> </p>
-    <p>Люблю <em>стримить, компютерные игры</em>, заниматься <em>спортом и программированием.</em>  </p>
+      <img src="foto.jpg" alt="Супрон Вадим" class="avatar">
 
-<h4>Список социальных сетей</h4>
+      <div class="info-text">
+       <h1>Супрон Вадим</h1>
+        <p>Я создатель этого <strong>сайта</strong>,бывший стример канала <strong>"Mtv_Umora"</strong> </p>
+        <p>Люблю <em>стримить, компютерные игры</em>, заниматься <em>спортом и программированием.</em>  </p> 
+        <h4>Список социальных сетей</h4>
 
-<a href="https://www.instagram.com/mtv_umora/"target="_blank">Instagram</a>
-l
-<a href="https://t.me/Kudlao1"target="_blank">Telegram</a>
-l
-<a href="https://vk.com/id163709688"target="_blank">VK</a>
+        <a href="https://www.instagram.com/mtv_umora/"target="_blank">Instagram</a>
+        l
+        <a href="https://t.me/Kudlao1"target="_blank">Telegram</a>
+        l
+        <a href="https://vk.com/id163709688"target="_blank">VK</a>
+      </div>
+      
     </div>
-<h2>Мои Хобби</h2>
- 
-   <div class="card1 bg-red">
-    <ol>
-<li>Сримить</li>
-<li>Настольные игры</li>
-<li>Собирать лего</li>
-<li>Читать</li>
-    </ol>
-   </div>
-<div class="card1 bg-yellow">
-<h2>Опыт работы</h2>
-<table>
-    <thead>
+
+    <div class="card bg-yellow">
+
+      <h2>Мои Хобби</h2>
+      <ol class="list">
+       <li>Сримить</li>
+       <li>Настольные игры</li>
+       <li>Собирать лего</li>
+       <li>Читать</li>
+      </ol>
+    </div>
+
+    <div class="card bg-red">
+
+     <h2>Опыт работы</h2>
+       <table class="table">
+        <!-- <thead>
+          <tr>
+          <th>Компания</th>
+          <th>Должность</th>
+          <th>Год</th>
+          </tr>
+        </thead>            -->
+        <tbody>
+          <tr>       
+           <td>Связь</td>
+           <td>Монтажник</td>
+           <td>2016-2017</td>
+          </tr>
+        </tbody>
+      <tbody>
         <tr>
-            <th>Компания</th>
-            <th>должность</th>
-            <th>год</th>
-    </thead>       
+         <td>Ресторан</td>
+         <td>Хинкальня</td>
+         <td>2017-2020</td>
         </tr>
-    <tbody>
-    <tr>       
-        <td>Связь</td>
-        <td>Монтажник</td>
-        <td>2016-2017</td>
-    </tr>
-    <tbody>
-    <tr>
-        <td>Ресторан</td>
-        <td>Хинкальня</td>
-        <td>2017-2020</td>
-    </tr>
-    </tbody>
-    <tbody>
+      </tbody>
+      <tbody>
         <td>Twitch</td>
         <td>Стример</td>
         <td>2020-2021</td>
         </tr>
-    </tbody>  
-    </table>
-</div>
-<h2>Связаться со мной</h2>
-<form class="card1 bg-green">
-    <div>
-        <label for="text">Ваше Имя:</label>
-        <input type="text" placeholder="Введите имя...">
+      </tbody>  
+     </table>
     </div>
-    <div>
-        <label for="email">Ваш Emeil:</label>
-        <input type="email" id="email" placeholder="Ваша почта...">
-    </div>
-    <div>
-        <label for="message">Ваше сообщение:</label>
-        <br>
-        <textarea  id="message" cols="25" rows="5" placeholder="Ваше сообщение..."></textarea>
-    </div>
-    
-    <input type="submit" value="Отправить!">
-            </div>
 
+   
+
+    <form action="/" class="card1">
+      <h2>Связаться со мной</h2>
+      <div class="form-row">
+        <div class="form-group">
+        
+          <label for="text">Ваше Имя:</label>
+          <input type="text" placeholder="Введите имя...">
+         </div>
+
+        <div class="form-group">
+          <label for="email">Ваш Emeil:</label>
+          <input type="email" id="email" placeholder="Ваша почта...">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Ваше сообщение:</label>
+        <textarea  id="message" cols="25" rows="5" placeholder="Ваше сообщение..."></textarea>
+      </div>
+    
+    
+      <div>
+       <input class="btn" type="submit" value="Отправить!">
+      </div>
+  </div>   
+<body>
+    
 </form>
 </html>
